@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+/* .hidesidebar{
+    display: none;
+} */
+
+
+
+body{
+    background-color: hsl(210, 36%, 96%);
+    list-style: none;
+    
+}
+
+.container{
+    background-color: #fff;
+    height: 100%;
+    width:365px ;
+    
+    
+}
+
+.logo{
+    height: 32px;
+    padding-left: 26px;
+    padding-top: 22px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5;
+}
+
+.firstnav{
+    display: flex;
+    flex-direction: column;
+    margin-top: 42px;
+    padding: 22px;
+    line-height: 68px;
+
+}
+
+nav ul li a{
+    font-size: 32px;
+    text-decoration: none;
+    color: hsl(210, 22%, 49%);
+    text-decoration:  "Open Sans", sans-serif;
+    cursor: pointer; 
+}
+
+.firstnav a:hover{
+    color: #49a6e9;
+    transition:  all 0.3s linear; ;
+    padding-left: 2px;
+    height: 100%;
+}
+
+.firstnav li:hover{
+    background-color: hsl(205, 86%, 81%);
+    width: 100%;
+    height: 70px;
+    transition:  all 0.8s linear; ;
+    cursor: pointer;
+    padding-left: 12px;
+}
+
+.secondnav{
+    font-size: 28px;
+    margin-top: 62px;
+    text-align: center;
+}
+.secondnav a{
+    padding-left: 12px;
+    color:#49a6e9 ;
+}
+.secondnav a:hover{
+    color: hsl(205, 86%, 17%);
+    transition:  all 0.8s linear; ;
+}
+
+.close{
+    background: none;
+    border-style: none;
+    color: hsl(360, 67%, 44%);
+    font-size: 32px;
+    font-family: "Font Awesome 5 Free";
+    cursor: pointer;
+    padding-left: 62px;
+	cursor: pointer;
+}
+
+
+
+
+.close i:hover{
+    color: hsl(360, 71%, 66%);
+    opacity: 1;
+    transform:rotate(150deg);
+
+    
+}
+.bars-btn{
+    float: right;
+    margin-top: 42px;
+    margin-right: 42px;
+    border-style: none;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    animation: bounce 4s ease-in-out infinite;
+    animation-duration: 12s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: bounce;
+    
+}
+.bars-btn i{
+    font-size: 40px;
+    border: none;
+    color: #49a6e9;
+}
+
+
